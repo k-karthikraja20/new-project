@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: lightblue;
+
+}
+
+header{
+    background-color: rgb(17, 139, 109);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+
+
+}
+ nav h3{
+    color: blue;
+    text-decoration: dashed;
+    padding: 10px;
+    
+} 
+
+ /* nav a{
+ color: brown;
+ text-decoration: dashed;
+ padding: 10px;
+ 
+
+}  */
+.banner{
+    background-color: chartreuse;
+    text-align: center;
+    padding: 60px;
+}
+
+.one{
+    background-color: aqua;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+
+    background: white;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: blue;
+    padding: 20px;
+
+}
+
+.card img{
+    width: 100%;
+    border-radius: 8px;
+
+}
+/* .card h3{
+    color: aqua;
+    margin: 10px;
+} */
+
+/* .card p{
+    color: cadetblue;
+    font-size: 20px;
+    padding: 5px;
+
+    
+
+}  */
+
+ button{
+    color: black;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background: lightgreen; 
+}
+
+
+.card input{
+    color: brown;
+    background: lightblue;
+    
+
+}
+/* 
+footer{
+    background-color: lightgray;
+    color: darkblue;
+    text-align: center;
+    padding: 50px;
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+ 
